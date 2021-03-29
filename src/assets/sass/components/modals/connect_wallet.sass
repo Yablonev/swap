@@ -1,0 +1,71 @@
+.connect-wallet
+  background-color: rgb(44, 47, 54)
+  padding: 2rem
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+  .connect-wallet__top
+    display: grid
+    gap: 10px
+
+    button
+      background-color: rgb(44, 47, 54)
+      border: 1px solid rgb(57, 61, 71)
+      border-radius: 12px
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-between
+      padding: 1rem
+      margin-top: 0px
+      opacity: 1
+      width: 100% !important
+
+      &:hover
+        cursor: pointer
+        border: 1px solid rgb(246, 243, 124)
+
+      &:focus
+        box-shadow: rgb(246 243 124) 0px 0px 0px 1px
+
+      .text
+        display: flex
+        flex-flow: column nowrap
+        justify-content: center
+        height: 100%
+
+        p
+          display: flex
+          flex-flow: row nowrap
+          color: rgb(255, 255, 255)
+          font-size: 1rem
+          font-weight: 500
+
+      .right
+        display: flex
+        flex-flow: column nowrap
+        align-items: center
+        justify-content: center
+
+        img
+          height: 24px
+          width: 24px
+
+  .connect-wallet__bottom
+    display: flex
+    flex-flow: row wrap
+    align-items: center
+    justify-content: center
+    margin-top: 2rem
+
+    span
+      margin-right: 6px
+
+    a 
+      text-decoration: none
+      cursor: pointer
+      color: rgb(246, 243, 124)
+      font-weight: 500
+
+      &:hover, &:focus
+        text-decoration: underline

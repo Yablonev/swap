@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap')
+
+html
+  color: rgb(255, 255, 255)
+  background-color: rgb(44, 47, 54)
+  letter-spacing: -0.018em
+  font-family: 'Inter', sans-serif
+
+body
+  min-height: 100vh
+  background-color: rgb(5, 34, 53)
+  display: flex
+  justify-content: center
+
+html, body, ul, p, h1, h2, h3, h4, h5, hr
+  margin: 0px
+  padding: 0px
+
+main.main
+  display: flex
+  margin-top: 160px
+  justify-content: center
+
+button
+  background: transparent
+  border: 0
+
+  &:focus
+    outline: none
+
+*
+  box-sizing: border-box
+
+  &:focus
+    outline: none
+
+.tippy-tooltip
+  z-index: 9999
+  visibility: visible
+  opacity: 1
+  transition: visibility 150ms linear 0s, opacity 150ms linear 0s
+  background: rgb(44, 47, 54)
+  border: 1px solid rgb(57, 61, 71)
+  box-shadow: rgb(47 128 237 / 10%) 0px 4px 8px 0px
+  color: rgb(198, 213, 222)
+  border-radius: 8px
+
+  .tippy-content
+    width: 228px
+    line-height: 150%
+    font-weight: 400
+    text-align: left
+    font-size: 15px
+    line-height: 24px
+
+.flex
+  display: flex
+  align-items: center

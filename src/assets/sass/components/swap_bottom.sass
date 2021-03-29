@@ -1,0 +1,128 @@
+.grid
+  display: grid
+  grid-auto-rows: auto
+  row-gap: 12px
+
+.grid_box
+  display: grid
+  grid-auto-rows: auto
+  padding: 0px 20px
+
+.row
+  box-sizing: border-box
+  margin: 0px
+  min-width: 0px
+  width: 100%
+  display: flex
+  padding: 0px
+  align-items: center
+  justify-content: space-between
+
+.left
+  box-sizing: border-box
+  margin: 0px
+  min-width: 0px
+  display: flex
+  padding: 0px
+  align-items: center
+  width: fit-content
+
+  > span
+    margin-left: 4px
+
+.title
+  box-sizing: border-box
+  margin: 0px
+  min-width: 0px
+  font-weight: 400
+  color: rgb(198, 213, 222)
+  font-size: 14px
+
+.question
+  display: inline-block
+
+.question_icon
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 0.2rem
+  border: none
+  background: transparent
+  outline: none
+  cursor: default
+  border-radius: 36px
+  color: rgb(198, 213, 222)
+
+  &:hover, &:focus
+    opacity: 0.7
+
+  > svg
+    width: 16px
+    height: 16px
+
+.value
+  box-sizing: border-box
+  margin: 0px
+  min-width: 0px
+  font-weight: 500
+  color: rgb(255, 255, 255)
+  font-size: 14px
+
+.white
+  color: white
+
+.success
+  color: rgb(39, 174, 96)
+
+.warning
+  color: rgb(243, 132, 30)
+
+.danger
+  color: rgb(255, 104, 113)
+
+hr
+  height: 1px
+  width: 100%
+  background-color: rgba(255, 255, 255, .1)
+  border: 0
+
+.swap-route
+  display: grid
+  grid-auto-rows: auto
+  padding: 0px 24px
+
+.routes
+  box-sizing: border-box
+  margin: 0.5rem 0px
+  min-width: 0px
+  padding: 0.5rem 1rem
+  flex-wrap: wrap
+  width: 100%
+  justify-content: space-evenly
+  align-items: center
+  display: flex
+  border: 1px solid rgba(255, 255, 255, .1)
+  border-radius: 1rem
+
+  svg
+    width: 24px
+    height: 24px
+
+  .route
+    box-sizing: border-box
+    margin: 0.5rem 0px
+    min-width: 0px
+    align-items: center
+    display: flex
+
+    img
+      width: 1.5rem
+      height: 1.5rem
+
+    .title
+      box-sizing: border-box
+      margin: 0px 0px 0px 0.5rem
+      min-width: 0px
+      font-weight: 500
+      color: rgb(255, 255, 255)
+      font-size: 14px
